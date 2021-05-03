@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready (function(){
+            $("button").click(function(){
+           
+                $(".p1").addClass('newclass');
+            });
+
+           $('.slide').click(function(){
+               $(".p2").slideToggle();
+
+
+           });
+
+           $('.ap').click(function(){
+               $('.p3').append('  new append.');
+           });
+
+        });
+
+
+
+
+    </script>
+    <style>
+        .newclass{
+            color: red;
+            
+
+        }
+    </style>
+    
+</head>
+
+<body>
+    <button>Add Class</button>
+    <button class="slide">SlideToggle</button>
+    <button class="ap">Append</button>
+    <p class="p1">Hello World!</p>
+    <p class="p2">click the button to slide toggle a hidden image</p>
+    <p class="p3">Click the button to Append</p>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: rgb(37,20,25);
+    width: 970px;
+    height: 900px;
+}
+ 
+img{
+    height: 200px;
+    width: 350px;
+}
+header {
+    background-color: rgb(245,245,245);
+height: 50px;
+
+
+}
+h1 {
+
+padding-left: 15px;
+}
+
+ header h2 {
+ margin-top : -30px;
+    padding-left: 600px;
+}
+
+.topMiddle{
+    display: flex;
+}
+.topMiddle img{
+    width: 350px;
+    height: 220px;
+
+border : 5px solid;
+border-color: silver;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.right{
+    background-color:rgb(225,213,224);
+    height: 230px;
+    width:550px ;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.right h2 {
+    padding: 10px;
+ 
+    margin-top: 0px;
+    color: white;
+    background-image: linear-gradient(silver,rgb(138,136,149) ,silver );
+}
+
+.right p {
+    padding: 10px;
+}
+
+.right a{
+    color: black;
+}
+
+.bottomMiddle {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.first {
+    height: 534px;
+    width: 290px;
+    background-color:rgb(225,213,224);
+    
+}
+.first h2 {
+    background-image: linear-gradient(silver,rgb(138,136,149) ,silver );
+    color: white;
+    height: 35px;
+    padding: 5px;
+}
+.first img {
+    width: 290px ;
+}
+
+
+.second {
+    height: 534px;
+    width: 290px;
+    background-color:rgb(225,213,224);
+    
+}
+.second h2 {
+    background-image: linear-gradient(silver,rgb(138,136,149) ,silver );
+    color: white;
+    height: 35px;
+    padding: 5px;
+}
+.second img {
+    width: 290px ;
+}
+
+.third {
+    height: 534px;
+    width: 290px;
+    background-color:rgb(225,213,224);
+    
+}
+.third h2 {
+    background-image: linear-gradient(silver,rgb(138,136,149) ,silver );
+    color: white;
+    height: 35px;
+    padding: 5px;
+}
+.third img {
+    width: 290px ;
+}
+
+.t1 h2 {
+    height: 25px;
+    font-size: 20px ;
+    background-image: linear-gradient(silver,rgb(138,136,149) ,silver );
+}
+
+.web img {
+    height: 42px;
+    width: 41px;
+    padding: 2px;
+    margin-left: 3px;
+    margin-top: 5px;
+    
+}
+
+button {
+    background-color: rgb(64,125,97);
+    border-radius: 5px;
+  
+    width: 75px;
+    height: 30px;
+    margin-left: 105px;
+    color: white;
+}
+
+footer {
+    height: 58px;
+    background-image: linear-gradient(white,silver);
+    width: 970px;
+    
+}
+footer img {
+    height: 25px;
+    width: 25px;
+
+    
+}
+footer p{
+    margin-left: 410px;
+}
+
+.imgFooter {
+margin-left: 350px;
+margin-top: 5px;
+}
+ .imgFooter a {
+    color: black;
+ }

@@ -1,0 +1,74 @@
+* {
+    width: 970px;
+}
+.main{
+    background-color: blue;
+    height: 700px;
+    padding: 30px;
+}
+
+.top{
+background-color: brown;
+font-size: 150%;
+color: white;
+border-radius: 15px;
+height: 60px;
+
+
+}
+
+ .homeBar {
+background-color: cadetblue;
+width: 200px;
+height: 250px;
+border-radius: 15px;
+display: inline-block;
+vertical-align: top;
+margin-top: 20px;
+}
+
+.basicsBar{
+ background-color: black;
+ height: 540px;
+ width: 700px;
+ border-radius: 15px;
+ display: inline-block;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.infoBar{ 
+    background-color:rgb(50, 205, 128);
+font-size: 100%;
+color: white;
+border-radius: 15px;
+height: 30px;
+
+}
+
+h3 {
+
+    font-size: 25px;
+    color: white;
+
+}
+div .basicsBar p {
+    font-size: 15px;
+    color: white;
+}
+
+span {
+    font-size: 15px;
+    color:blue;
+}
+div .homeBar a{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div .basicsBar p{
+    width: fit-content;
+    font-size: 20px;
+    color: burlywood;
+    font-style: italic;
+}

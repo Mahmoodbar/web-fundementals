@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(36,80,118);
+    width: 970px;
+    height: 900px;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+header img {
+    width: 320px;
+    height: 100px;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgb(68,68,68);
+    width: 300px;
+    height: 70px;
+    margin-top: -13px;
+ 
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+button {
+    background-color: rgb(36,80,118);
+    box-shadow: 2px 2px 2px white;
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+#search {
+    height: 35px;
+    width: 150px;
+    margin-left: 60px;
+}
+
+header p {
+    color: white;
+    margin-left: 130px;
+}
+ 
+header a {
+    color: gold;
+}
+.boxSearch {
+    margin-left: ;
+}
+
+nav{
+    display: flex;
+   
+    width: 832px;
+    background-color: rgb(72,126,173);
+    margin-left: 80px;
+    
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+nav h2 {
+    color: white;
+font-size: 20px;
+margin-left: 35px;
+margin-right: 23px;
+}
+
+.left a {
+    color: white;
+    font-size: 18px;
+    display:inline-block;   
+    margin-left: 77px;
+    text-align: center;
+}
+
+.left ul{
+    color: white;
+    margin-right: 20px;
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.Middle {
+    text-align: center;
+    display: flex;
+    color: white;
+}
+
+.right p {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 100px;
+    color: white;
+    margin-top: 35px;
+    width: 550px;
+}
+
+.right h3 {
+    color: gold;
+    font-size: 20px;
+    margin-left: 96px;
+    font-style: italic;
+    
+}
+
+.right h4{
+    font-size: 17px;
+    margin-left: 96px;
+}
+
+.down {
+    background-color: white;
+    height: 200px;
+    width: 970px;
+    
+    display: flex;
+  
+}
+.line {
+    background-color: rgb(72,126,173);
+    height: 3px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.left1{
+    width: 300px;
+    text-align: center;
+    margin-left: 30px
+}
+
+.left1 li {
+    color: rgb(72,126,173);
+}
+
+.line2 {
+    background-color: rgb(72,126,173);
+    height: 3px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.left2{
+    width: 300px;
+    text-align: center;
+    margin-left: 30px
+}
+
+.left2 li {
+    color: rgb(72,126,173);
+}
